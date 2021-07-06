@@ -1,8 +1,7 @@
-class Dollar(amount: Int) {
-    val amount: Int = 10
+class Dollar(var amount: Int) {
 
-    public fun times(multiplier: Int): Boolean
+    public fun times(multiplier: Int): Unit
     {
-        return true
+        this.amount *= multiplier
     }
 }

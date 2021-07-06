@@ -5,7 +5,7 @@ This repo follows the first chapter of the book with the example of Money.
 ## Tests TODO-list
 
 - [ ] TEST - $5 + 10 CHF = $10 if the rate is 2:1
-- [ ] **Test - $5 * 2 = $10**
+- [x] Test - $5 * 2 = $10
 - [ ] Make amount private
 - [ ] Dollar side-effects?
 - [ ] Money rounding?
