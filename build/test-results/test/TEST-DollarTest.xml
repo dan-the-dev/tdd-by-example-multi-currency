@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DollarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-06T09:57:10" hostname="MacBook-Air-di-Daniele.local" time="0.028">
+<testsuite name="DollarTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-13T08:29:24" hostname="MacBook-Air-di-Daniele.local" time="0.052">
   <properties/>
-  <testcase name="testHandleReturnTrue()" classname="DollarTest" time="0.028"/>
+  <testcase name="testDollarMultiplication()" classname="DollarTest" time="0.041"/>
+  <testcase name="testFrancMultiplication()" classname="DollarTest" time="0.003"/>
+  <testcase name="testEquality()" classname="DollarTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

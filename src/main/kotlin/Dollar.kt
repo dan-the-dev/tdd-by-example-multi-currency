@@ -1,7 +1,12 @@
 class Dollar(var amount: Int) {
 
-    public fun times(multiplier: Int): Unit
+    fun times(multiplier: Int): Dollar
     {
-        this.amount *= multiplier
+        return Dollar(this.amount * multiplier)
+    }
+
+    fun equals(dollar: Dollar): Boolean
+    {
+        return this.amount == dollar.amount
     }
 }
